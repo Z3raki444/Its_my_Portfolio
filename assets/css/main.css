@@ -643,6 +643,7 @@ section,
 
 .about .content ul i {
   font-size: 16px;
+  margin-bottom: 20;
   margin-right: 5px;
   color: var(--accent-color);
   line-height: 0;
@@ -651,8 +652,12 @@ section,
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
+.stats {
+  margin-bottom: 20px; /* Reduced bottom margin */
+}
+
 .stats .stats-item {
-  padding: 30px;
+  padding: 20px; /* Reduced padding */
   width: 100%;
 }
 
@@ -675,20 +680,26 @@ section,
 
 .stats .stats-item p {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
-  padding: 15px 0 0 0;
+  padding: 10px 0 0 0; /* Reduced top padding */
   margin: 0 0 0 60px;
   font-family: var(--heading-font);
   font-size: 14px;
+  margin-bottom: 0px;
 }
 
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
+.skills {
+  margin-top: 20px; /* Reduced top margin */
+}
+
 .skills .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
+  margin-bottom: 6px; /* Reduced bottom margin */
 }
 
 .skills .progress .skill {
@@ -717,6 +728,7 @@ section,
   transition: 0.9s;
   background-color: var(--accent-color);
 }
+
 
 /*--------------------------------------------------------------
 # Resume Section
